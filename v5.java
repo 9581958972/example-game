@@ -10,17 +10,17 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	Scanner s=new Scanner(System.in);
-	int n=s.nextInt();
 	int a=s.nextInt();
 	int b=s.nextInt();
-	if(a>b)
-	System.out.println("a is Large");
-	else if(b<a)
+	int c=s.nextInt();
+	if(a>b && a>c)
+	System.out.println(a);
+	else if(b>a && b>c)
 	{
-	System.out.println("b is Large");
+	System.out.println(b);
 	}
 	else
 	
-System.out.println("c is Large");
+	System.out.println(c);
 }
 }
