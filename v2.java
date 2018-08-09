@@ -1,3 +1,4 @@
+
 /* package whatever; // don't place package name! */
 
 import java.util.*;
@@ -9,13 +10,28 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	 char ch = 'i';
-
-        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )
-            System.out.println("Vowel");
-        else
-            System.out.println("Consonant");
-
+	int i=0;
+	Scanner sc=new Scanner(System.in);
+	char ch=sc.next( ).charAt(0);	 
+	switch(ch)
+	{
+	 case  'a' :
+	 case 'e'  :
+	 case 'i'   :
+	 case 'o'  :
+	 case 'u'  :
+	 case  'A' :
+	 case 'E'  :
+	 case 'I'   :
+	 case 'O'  :
+	 case 'U'  :i++;
 	}
-	
+	if(i==1)
+	System.out.println("Vowel");
+	else 
+		if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+		System.out.println("Consonent");
+		else
+		System.out.println("Invalid");		// your code goes here
+	}
 }
