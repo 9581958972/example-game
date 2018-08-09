@@ -14,13 +14,13 @@ class Ideone
 	int a=s.nextInt();
 	int b=s.nextInt();
 	if(a>b)
-	System.out.println("a is large");
+	System.out.println("a is Large");
 	else if(b<a)
 	{
-	System.out.println("b is large");
+	System.out.println("b is Large");
 	}
 	else
 	
-System.out.println("c is large");
+System.out.println("c is Large");
 }
 }
